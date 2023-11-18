@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contaner{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* navbar css */
+.navbar{
+    padding: 20px 0;
+}
+.logo , .list , .icons , .buttom{
+    float: left;
+}
+.logo{
+    width: 30%;
+}
+.list{
+    width:45% ;
+}
+.icons i{
+    margin-right: 20px;
+    color: #384aeb;
+    
+}
+.list li{
+    float: left;
+    margin-right: 20px;
+}
+.list li a{
+    text-transform: capitalize;
+    color: #333;
+    font-size: 15px;
+}
+.buttom{
+    border: 1px solid #384aeb;
+    padding:10px 30px;
+    border-radius: 20px;
+}
+.buttom a{
+    text-transform: capitalize;
+    color: #333;
+}
+/* icons and list and bottom with same line */
+.icons , .list{
+    padding-top: 10px;
+}
+.icons i.fa-bars{
+  display: none;
+}
+/* header */
+.header-img{
+    float: left;
+    width:40%;
+}
+.header-img img{
+    width: 100%;
+}
+.header-content{
+    float:right ;
+    width:60%;
+    padding-top:160px;
+    padding-left:80px;
+}
+.first-para{
+    font-size: 25px;
+    color: #333;
+}
+.second-para{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+h1{
+    margin: 20px 0;
+}
+.header .buttom{
+    background-color:#384aeb ;
+}
+.header .buttom a{
+    color: #fff;
+}
+/* start main product */
+.main-product{
+    margin-top: 60px;
+}
+.item{
+    float:left;
+    width: 32%;
+    margin-right: 10px;
+}
+.item img{
+    width: 100%;
+}
+/* tranding */
+.tranding{
+    margin-top: 60px;
+}
+.desc{
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 15px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.custam{
+    border-bottom: 2px solid #384aeb;
+    color: rgb(82, 3, 3);
+}
+.product img{
+    width: 100%;
+}
+.product{
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    float: left;
+    width:25%;
+}
+.catogre{
+    padding: 10px;
+    color: #333;
+}
+h3{
+    padding-bottom: 10px;
+}
+.price{
+    color: #384aeb;
+    font-weight: bold;
+}
